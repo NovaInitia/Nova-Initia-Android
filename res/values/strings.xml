@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Nova Initia</string>
+    <string name="username">Username:</string>
+    <string name="pword">Password:</string>
+    <string name="class_prompt">Choose Class</string>
+    <string-array name="class_array">
+        <item>Refugee</item>
+		<item>Guardian</item>
+        <item>Guide</item>
+        <item>Giver</item>
+    </string-array>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="toolbar">Toolbar</string>
+    <string name="load">Load</string>
+    <string name="deploy_barrel">Deploy Barrel</string>
+    <string name="deploy_signpost">Deploy Signpost</string>
+    <string name="deploy_door">Deploy Door</string>
+    <string name="sg">Sg</string>
+    <string name="traps">Traps</string>
+    <string name="barrels">Barrels</string>
+    <string name="spiders">Spiders</string>
+    <string name="doors">Doors</string>
+    <string name="signposts">Signposts</string>
+    <string name="shields">Shields</string>
+    <string name="message">Message</string>
+    <string name="label">Label</string>	
+    <string name="deploy">Deploy</string>
+    <string name="cancel">Cancel</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="title">Title</string>
+    <string name="comments">Comments</string>
+    <string name="nsfw">NSFW?</string>
+    <string name="url">URL</string>
+    <string name="hint">Hint</string>
+    <string name="send_message">Send Message</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="content">Content</string>
+    <string name="send">Send</string>
+</resources>

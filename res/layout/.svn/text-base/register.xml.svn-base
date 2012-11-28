@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	android:id="@+id/widget62"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+	android:id="@+id/widget66"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+<TextView
+	android:id="@+id/widget69"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:padding="10dp"
+	android:text="Register"
+	android:layout_gravity="center_horizontal" />
+<TextView
+	android:id="@+id/widget84"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Username" 
+	android:layout_marginTop="20dp"/>
+<EditText
+	android:id="@+id/enter_new_username"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginRight="20dp"
+	android:textSize="18sp" 
+	android:layout_marginTop="20dp"/>
+<TextView
+	android:id="@+id/widget71"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Password" 
+	android:layout_marginTop="20dp"/>
+<EditText
+	android:id="@+id/enter_new_password"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginRight="20dp"
+	
+	android:textSize="18sp"
+	android:layout_marginTop="20dp"/>
+<TextView
+	android:id="@+id/widget73"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Confirm Password"
+	android:layout_marginTop="20dp"/>
+<EditText
+	android:id="@+id/confirm_new_password"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginRight="20dp"
+	android:textSize="18sp" 
+	android:layout_marginTop="20dp"/>
+<TextView
+	android:id="@+id/widget75"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Tagline" 
+	android:layout_marginTop="20dp"/>
+<EditText
+	android:id="@+id/enter_tagline"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginRight="20dp"
+	
+	android:textSize="18sp" 
+	android:layout_marginTop="20dp"/>
+<TextView
+	android:id="@+id/widget77"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Location"
+	android:layout_marginTop="20dp" />
+<EditText
+	android:id="@+id/enter_location"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginRight="20dp"
+	android:textSize="18sp"
+	android:layout_marginTop="20dp"/>
+<TextView
+	android:id="@+id/widget78"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Edit Class"
+	android:layout_marginTop="20dp"/>
+<Spinner
+	android:id="@+id/class_select"
+	android:layout_width="fill_parent"
+	android:layout_marginRight="20dp"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="20dp"
+	android:prompt="@string/class_prompt"/>
+<LinearLayout
+	android:id="@+id/widget81"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="10dp">
+<Button
+	android:id="@+id/confirm_register_button"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Register" />
+<Button
+	android:id="@+id/cancel_register_button"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:onClick="cancelSelected"
+	android:text="Cancel" />
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

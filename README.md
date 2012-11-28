@@ -1,4 +1,6 @@
 Nova-Initia-Android
 ===================
 
-A webkit based broswrr sopprting Nova Initia
+A webkit based broswer supporting Nova Initia
+
+Currently incomplete

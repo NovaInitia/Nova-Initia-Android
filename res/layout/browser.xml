@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget52"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:focusable="true" 
+	android:focusableInTouchMode="true"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout
+	    android:id="@+id/layout1"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+
+		<Button
+		    android:id="@+id/toolbar_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/toolbar" />
+
+		<Button
+		    android:id="@+id/load_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/load" />
+
+    
+    	<EditText
+       		android:id="@+id/editText1"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:singleLine="true"
+        	android:inputType="textWebEditText">
+		<requestFocus />
+   		</EditText>
+
+	</LinearLayout>
+
+	<LinearLayout
+	 	android:id="@+id/notification_bar"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:background="#ff33ffff"
+	>
+
+		<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"/>
+   	
+   	</LinearLayout>
+	<WebView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/webview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+/>
+</LinearLayout>

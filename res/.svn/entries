@@ -1,0 +1,49 @@
+10
+
+dir
+952
+svn://harvey.cs.umass.edu/nova-initia/trunk/Rocket/Android/Nova%20Initia%203/res
+svn://harvey.cs.umass.edu
+
+
+
+2012-05-05T20:37:01.253983Z
+892
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2ce81e28-d22d-4574-a466-fa2f75b856a3
+
+values
+dir
+
+drawable-hdpi
+dir
+
+menu
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+
+layout
+dir
+

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget62"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/widget52"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/widget35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:text="Preferences"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/widget45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="New Password" />
+
+        <EditText
+            android:id="@+id/new_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="18sp" 
+            android:password="true"/>
+
+        <TextView
+            android:id="@+id/widget33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Confirm Password"/>
+
+        <EditText
+            android:id="@+id/confirm_new"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:password="true"/>
+
+        <TextView
+            android:id="@+id/widget39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Edit Tagline" />
+
+        <EditText
+            android:id="@+id/edit_tagline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/widget60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Edit Location" />
+
+        <EditText
+            android:id="@+id/edit_location"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/widget41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Edit Class" />
+
+        <Spinner
+            android:id="@+id/edit_class"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:prompt="@string/class_prompt" />
+
+        <LinearLayout
+            android:id="@+id/bottom_buttons"
+            android:layout_width="fill_parent"
+            android:layout_height="132px"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:padding="10dp" >
+
+            <Button
+                android:id="@+id/confirm_changes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Confirm" />
+
+            <Button
+                android:id="@+id/cancel_changes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:text="Cancel"
+                android:onClick="cancelPreferencesSelected" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
